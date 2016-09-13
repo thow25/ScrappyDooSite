@@ -5,3 +5,8 @@ h1 {
 body {
     background-color: lightblue;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
