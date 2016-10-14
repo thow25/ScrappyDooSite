@@ -5,19 +5,21 @@ h1
 	border: 3px white;
 }
 
-body 
+html 
 {
     background-color: Indigo;
 	color: white;
-	border: 3px white;
+	border: 10px dotted white;
 }
 a
 {
-	color: red;
+	color: white;
+  text-align: center;
+  display: block;
 } 
 img 
 {
     display: block;
     margin: 0 auto;
-	border: 5px white;
+	border: 10px dotted white;
 }
