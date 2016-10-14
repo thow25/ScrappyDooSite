@@ -5,36 +5,42 @@ function generateRandomImage()
     0 :
     {
       id: 0,
-      name: "torrelle",
-      imgUrl: "http://orig04.deviantart.net/5dcd/f/2015/143/f/e/005_charmeleon_by_ridvanozturk-d8ufgxx.png"
+      name: "pikachu",
+      imgUrl: "http://i1.kym-cdn.com/entries/icons/original/000/019/677/5Pikachu.png"
     },
     1 :
     {
       id: 1,
-      name: "kirstyn",
-      imgUrl: "http://vignette4.wikia.nocookie.net/pokemon/images/0/04/055Golduck_Dream.png/revision/latest?cb=20140828004434"
+      name: "venusaur",
+      imgUrl: "http://img15.deviantart.net/822b/i/2013/286/c/4/venusaur_by_prinzeburnzo-d5z12ig.png"
     },
     2 :
     {
       id: 2,
-      name: "kessashun",
-      imgUrl: "http://cdn.bulbagarden.net/upload/thumb/9/97/064Kadabra.png/250px-064Kadabra.png"
+      name: "charizard",
+      imgUrl: "http://static.api6.studiobebop.net/pokemon_data/pokemon_images/Charizard.png"
     },
     3 :
     {
       id: 3,
-      name: "miguel",
-      imgUrl: "http://vignette1.wikia.nocookie.net/pokemon/images/6/67/030Nidorina_AG_anime.png/revision/latest?cb=20140914060620"
+      name: "blastoise",
+      imgUrl: "http://vignette2.wikia.nocookie.net/pkmncollectors/images/0/02/009Blastoise.png/revision/latest?cb=20100612002433"
     },
     4 :
     {
       id: 4,
-      name: "travon",
-      imgUrl: "http://vignette2.wikia.nocookie.net/pokemon/images/b/b1/025Pikachu_XY_anime_3.png/revision/latest?cb=20140902050035"
-    }
+      name: "pidgeot",
+      imgUrl: "http://img14.deviantart.net/a5eb/i/2012/072/6/b/_018_tauboss___pidgeot_by_mrsjasminhardy-d4smgtl.png"
+    },
+	5 :
+	{
+		id: 5,
+		name: "butterfree",
+		imgUrl: "https://s-media-cache-ak0.pinimg.com/originals/c8/72/55/c87255e7f1980e4cd255e3fb45ba3dbb.jpg"
+	}
   }
   
-  // Random Int from 0-4
-  var randomInt = Math.floor((Math.random() * 5));
+  // Random Int from 0-5
+  var randomInt = Math.floor((Math.random() * 6));
   document.getElementById("imageId").src = people[randomInt].imgUrl;
 }

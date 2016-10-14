@@ -11,10 +11,14 @@ html {
   background: indigo;
   border: 10px dotted white;
   text-align: center;
+  padding: 32px 0px;
   margin-bottom: 32px;
 }
 
 .jumbotron h1 {
+  line-height: 1;
+  font-family: Gotham;
+  font-size: 64px;
   margin: 0px 16px;
   color: white;
 }
@@ -24,8 +28,8 @@ html {
   margin: auto;
   margin-bottom: 32px;
   border: 10px dotted red;
-  max-height: 400px;
-  max-width: 400px;
+  height: 800px;
+  width: 800px;
 }
 
 a {
@@ -46,6 +50,7 @@ a {
   border-radius: 4px;
   line-height: 1;
   margin: auto;
+  width: 70%;
 }
 
 .c-button:hover
