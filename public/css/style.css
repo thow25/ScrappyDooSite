@@ -1,4 +1,4 @@
-body {
+html {
   background: white;
   border: 10px dotted indigo;
   border-radius: 4px;
@@ -46,4 +46,9 @@ a {
   border-radius: 4px;
   line-height: 1;
   margin: auto;
+}
+
+.c-button:hover
+{
+  cursor: pointer;
 }
