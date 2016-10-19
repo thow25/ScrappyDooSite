@@ -6,19 +6,19 @@ function generateRandomImage()
     {
       id: 0,
       name: "browns-pats",
-      imgUrl: "\public\img\Browns Pats.jpg"
+      imgUrl: "\public\img\BrownsPats.jpg"
     },
     1 :
     {
       id: 1,
       name:"four-by-one",
-      imgUrl: "\public\img\Four by One.jpg"
+      imgUrl: "\public\img\FourByOne.jpg"
     },
     2 :
     {
       id: 2,
       name: "grad-gang",
-      imgUrl: "\public\img\Grad Gang Pic.jpg"
+      imgUrl: "\public\img\GradGangPic.jpg"
     },
     3 :
     {
