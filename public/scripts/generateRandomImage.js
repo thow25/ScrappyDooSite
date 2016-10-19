@@ -5,19 +5,19 @@ function generateRandomImage()
     0 :
     {
       id: 0,
-      name: "browns-pats",
+      name: "brownspats",
       imgUrl: "\public\img\BrownsPats.jpg"
     },
     1 :
     {
       id: 1,
-      name:"four-by-one",
+      name:"fourbyone",
       imgUrl: "\public\img\FourByOne.jpg"
     },
     2 :
     {
       id: 2,
-      name: "grad-gang",
+      name: "gradgang",
       imgUrl: "\public\img\GradGangPic.jpg"
     },
     3 :
@@ -29,6 +29,6 @@ function generateRandomImage()
   }
   
   // Random Int from 0-3
-  var randomInt = Math.floor((Math.random() * 4));
+  var randomInt = Math.floor((Math.random() * 3));
   document.getElementById("imageId").src = people[randomInt].imgUrl;
 }
