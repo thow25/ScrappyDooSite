@@ -28,7 +28,7 @@ function generateRandomImage()
     }
   }
   
-  // Random Int from 0-5
+  // Random Int from 0-3
   var randomInt = Math.floor((Math.random() * 4));
   document.getElementById("imageId").src = people[randomInt].imgUrl;
 }
