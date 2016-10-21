@@ -24,7 +24,7 @@ function generateRandomImage()
     {
       id: 3,
       name: "nationwide",
-      imgUrl: "\public\img\Nationwide.jpg"
+      imgUrl: "/public/img/Nationwide.jpg"
     }
   }
   
