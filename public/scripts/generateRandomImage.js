@@ -12,13 +12,13 @@ function generateRandomImage()
     {
       id: 1,
       name:"fourbyone",
-      imgUrl: "FourByOne.jpg"
+      imgUrl: "/public/img/FourByOne.jpg"
     },
     2 :
     {
       id: 2,
       name: "gradgang",
-      imgUrl: "GradGangPic.jpg"
+      imgUrl: "/public/img/GradGangPic.jpg"
     },
     3 :
     {
