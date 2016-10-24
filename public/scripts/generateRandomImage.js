@@ -25,10 +25,58 @@ function generateRandomImage()
       id: 3,
       name: "nationwide",
       imgUrl: "/public/img/Nationwide.jpg"
-    }
+    },
+	4 :
+    {
+      id: 4,
+      name: "bernlohr",
+      imgUrl: "/public/img/BernlohrStadium.jpg"
+    },
+	5 :
+    {
+      id: 5,
+      name: "cavscountdown",
+      imgUrl: "/public/img/CavsCountdown.jpg"
+    },
+	6 :
+    {
+      id: 6,
+      name: "clevelandskylinetattoo",
+      imgUrl: "/public/img/ClevelandSkylineTattoo.jpg"
+    },
+	7 :
+    {
+      id: 7,
+      name: "firstenergystadium",
+      imgUrl: "/public/img/FirstEnergyStadium.jpg"
+    },
+	8 :
+    {
+      id: 8,
+      name: "fourbyone",
+      imgUrl: "/public/img/FourByOne.jpg"
+    },
+	9 :
+    {
+      id: 9,
+      name: "horseshoe",
+      imgUrl: "/public/img/Horseshoe.jpg"
+    },
+	10 :
+    {
+      id: 10,
+      name: "lakeerie",
+      imgUrl: "/public/img/LakeErie.jpg"
+    },
+	11 :
+    {
+      id: 11,
+      name: "newalbany",
+      imgUrl: "/public/img/NewAlbany.jpg"
+    },
   }
   
-  // Random Int from 0-3
-  var randomInt = Math.floor((Math.random() * 4));
+  // Random Int from 0-11
+  var randomInt = Math.floor((Math.random() * 12));
   document.getElementById("imageId").src = people[randomInt].imgUrl;
 }
