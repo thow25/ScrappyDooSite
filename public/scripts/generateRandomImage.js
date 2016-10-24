@@ -6,7 +6,7 @@ function generateRandomImage()
     {
       id: 0,
       name: "brownspats",
-      imgUrl: "BrownsPats.jpg"
+      imgUrl: "/public/img/BrownsPats.jpg"
     },
     1 :
     {
