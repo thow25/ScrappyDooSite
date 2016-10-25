@@ -1,5 +1,6 @@
-function generateNextImage()
+function pageInit()
 {
+  var imageInt;
   var people = 
   {
 	0 :
@@ -75,17 +76,16 @@ function generateNextImage()
 	  imgUrl: "/public/img/NewAlbany.jpg"
 	},
   }
+  imageInt = 0;
+}
   
-  var imageInt = 0;
 
-  while (true)
-  {
+function generateNextImage()
+{
 	document.getElementById("imageId").src = people[imageInt].imgUrl;
 	imageInt++;
 	if (imageInt > 11)
 	{
 		imageInt = 0;
 	}
-
-  }
 }
