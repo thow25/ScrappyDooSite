@@ -33,14 +33,14 @@ html {
 }
 
 a {
-  padding-top: 32px;
+  margin-top: 300px;
   color: indigo;
   display: block;
   text-align: center;
 }
 
 .c-button {
-  display: inline;
+  display: inline block;
   background-color: Indigo;
   padding: 16px 32px;
   border: 5px dotted white;
@@ -48,7 +48,6 @@ a {
   line-height: 1;
   width: 30%;
   padding: 16px 8px;
-  margin-bottom: 100px;
   box-shadow: 0px 12px 0px 0px gray;
 }
 
@@ -56,7 +55,7 @@ a {
 {
   color: white;
   font-family: Gotham;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -76,10 +75,12 @@ a {
 
 .c-button-left
 {
-  margin-right: 50px;
+  position: absolute;
+  left: 100px;
 }
 
 .c-button-right
 {
-  margin-left: 50px;
+  position: absolute;
+  right: 100px;
 }
