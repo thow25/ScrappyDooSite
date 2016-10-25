@@ -80,7 +80,7 @@ function generateNextImage()
 
   while (true)
   {
-	document.getElementById("imageId").src = people[randomInt].imgUrl;
+	document.getElementById("imageId").src = people[imageInt].imgUrl;
 	imageInt++
 	if (imageInt > 11)
 	{
