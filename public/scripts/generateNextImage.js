@@ -74,14 +74,26 @@ var people =
 	  imgUrl: "/public/img/NewAlbany.jpg"
 	},
   }
+document.getElementById("imageId").src = people[imageInt].imgUrl;
+
   
 
 function generateNextImage()
 {
-	document.getElementById("imageId").src = people[imageInt].imgUrl;
 	imageInt++;
 	if (imageInt > 11)
 	{
 		imageInt = 0;
 	}
+	document.getElementById("imageId").src = people[imageInt].imgUrl;
+}
+
+function generatePreviousImage()
+{
+	imageInt--;
+	if (imageInt < 0)
+	{
+		imageInt = 11;
+	}
+	document.getElementById("imageId").src = people[imageInt].imgUrl;
 }
