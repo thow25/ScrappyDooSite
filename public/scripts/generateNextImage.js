@@ -81,7 +81,7 @@ function generateNextImage()
   while (true)
   {
 	document.getElementById("imageId").src = people[imageInt].imgUrl;
-	imageInt++
+	imageInt++;
 	if (imageInt > 11)
 	{
 		imageInt = 0;
