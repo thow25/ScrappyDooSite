@@ -1,7 +1,5 @@
-function pageInit()
-{
-  var imageInt;
-  var people = 
+var imageInt = 0;
+var people = 
   {
 	0 :
 	{
@@ -76,8 +74,6 @@ function pageInit()
 	  imgUrl: "/public/img/NewAlbany.jpg"
 	},
   }
-  imageInt = 0;
-}
   
 
 function generateNextImage()
