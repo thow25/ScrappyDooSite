@@ -28,8 +28,8 @@ html {
   margin: auto;
   margin-bottom: 32px;
   border: 10px dotted red;
-  max-height: 960px;
-  max-width: 960px;
+  max-height: 525px;
+  max-width: 525px;
 }
 
 a {
