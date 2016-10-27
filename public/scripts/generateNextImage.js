@@ -109,7 +109,7 @@ var people =
 function generateNextImage()
 {
 	imageInt++;
-	if (imageInt > 17)
+	if (imageInt > 16)
 	{
 		imageInt = 0;
 	}
@@ -121,7 +121,7 @@ function generatePreviousImage()
 	imageInt--;
 	if (imageInt < 0)
 	{
-		imageInt = 17;
+		imageInt = 16;
 	}
 	document.getElementById("imageId").src = people[imageInt].imgUrl;
 }
