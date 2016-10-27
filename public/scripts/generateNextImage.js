@@ -5,37 +5,37 @@ var people =
 	{
 	  id: 0,
 	  name: "east4th",
-	  imgUrl: "/public/img/East4th.jpg"
+	  imgUrl: "/public/img/East4th.png"
 	},
 	1	: 
 	{
 	  id: 1,
 	  name: "theJakeWS",
-	  imgUrl: "/public/img/TheJakeWorldSeries.jpg"
+	  imgUrl: "/public/img/TheJakeWorldSeries.png"
 	},
 	2	:
 	{
 	  id: 2,
 	  name: "theQArena",
-	  imgUrl: "/public/img/TheQOutsideBannerNight.jpg"
+	  imgUrl: "/public/img/TheQOutsideBannerNight.png"
 	},
 	3	:
 	{
 	  id: 3,
 	  name: "theQBannerNight",
-	  imgUrl	: "/public/img/TheQBannerNight.jpg"
+	  imgUrl	: "/public/img/TheQBannerNight.png"
 	},
 	4	:
 	{
 	  id: 4,
 	  name: "wsWatchParty",
-	  imgUrl: "/public/img/WorldSeriesWatchParty.jpg"
+	  imgUrl: "/public/img/WorldSeriesWatchParty.png"
 	},
 	5	:
 	{
 	  id: 5,
 	  name: "cavsTitleTShirt",
-	  imgUrl: "/public/img/CavsTitleTShirt.jpg"
+	  imgUrl: "/public/img/CavsTitleTShirt.png"
 	},
 	6 :
 	{
