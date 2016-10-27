@@ -1,4 +1,4 @@
-var imageInt = 0;
+var imageInt = -1;
 var people = 
   {
 	0	:
@@ -88,24 +88,18 @@ var people =
 	14 :
 	{
 	  id: 14,
-	  name: "fourbyone",
-	  imgUrl: "/public/img/FourByOne.jpg"
+	  name: "horseshoe",
+	  imgUrl: "/public/img/Horseshoe.jpg"
 	},
 	15 :
 	{
 	  id: 15,
-	  name: "horseshoe",
-	  imgUrl: "/public/img/Horseshoe.jpg"
+	  name: "lakeerie",
+	  imgUrl: "/public/img/LakeErie.jpg"
 	},
 	16 :
 	{
 	  id: 16,
-	  name: "lakeerie",
-	  imgUrl: "/public/img/LakeErie.jpg"
-	},
-	17 :
-	{
-	  id: 17,
 	  name: "newalbany",
 	  imgUrl: "/public/img/NewAlbany.jpg"
 	}
