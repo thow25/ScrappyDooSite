@@ -1,4 +1,4 @@
-var imageInt = 24;
+var imageInt = 23;
 var people = 
 {
 	0 :
@@ -113,36 +113,30 @@ var people =
 	18	:
 	{
 	  id: 18,
-	  name: "OSUMichTailgate",
-	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
+	  name: "OSUMich",
+	  imgUrl: "/public/img/OhioStateMichigan.jpg"
 	},
 	19	:
 	{
 	  id: 19,
-	  name: "OSUMich",
-	  imgUrl: "/public/img/OhioStateMichigan.jpg"
+	  name: "OSUMichTailgate",
+	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
 	},
 	20	:
 	{
 	  id: 20,
-	  name: "OSUMichTailgate",
-	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
-	},
-	21	:
-	{
-	  id: 21,
 	  name: "StackCity",
 	  imgUrl: "/public/img/StackCity.jpg"
 	},
-	22	:
+	21	:
 	{
-		id: 22, 
+		id: 21, 
 		name: "Edwin",
 		imgUrl: "/public/img/EdwinEncarnacion.jpg"
 	},
-	23	:
+	22	:
 	{
-		id: 23,
+		id: 22,
 		name: "SnapchatGawd",
 		imgUrl: "/public/img/SNAPCHATGAWD.jpg"
 	}
@@ -153,7 +147,7 @@ function generateNextImage()
 	imageInt--;
 	if (imageInt < 0)
 	{
-		imageInt = 23;
+		imageInt = 22;
 	}
 	document.getElementById("imageId").src = people[imageInt].imgUrl;
 }
@@ -161,7 +155,7 @@ function generateNextImage()
 function generatePreviousImage()
 {
 	imageInt++;
-	if (imageInt > 23)
+	if (imageInt > 22)
 	{
 		imageInt = 0;
 	}
