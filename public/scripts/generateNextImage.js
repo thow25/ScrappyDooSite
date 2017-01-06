@@ -103,43 +103,43 @@ var people =
 	  id: 16,
 	  name: "east4th",
 	  imgUrl: "/public/img/East4th.png"
-	}
+	},
 	17	:
 	{
 	  id: 17,
 	  name: "CLESkylineTattooFinal",
 	  imgUrl: "/public/img/CLESkylineTattooFinal.jpg"
-	}
+	},
 	18	:
 	{
 	  id: 18,
 	  name: "OSUMichTailgate",
 	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
-	}
+	},
 	19	:
 	{
 	  id: 19,
 	  name: "OSUMich",
 	  imgUrl: "/public/img/OhioStateMichigan.jpg"
-	}
+	},
 	20	:
 	{
 	  id: 20,
 	  name: "OSUMichTailgate",
 	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
-	}
+	},
 	21	:
 	{
 	  id: 21,
 	  name: "StackCity",
 	  imgUrl: "/public/img/StackCity.jpg"
-	}
+	},
 	22	:
 	{
 		id: 22, 
 		name: "Edwin",
 		imgUrl: "/public/img/EdwinEncarnacion.jpg"
-	}
+	},
 	23	:
 	{
 		id: 23,
