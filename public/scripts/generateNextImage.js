@@ -1,4 +1,4 @@
-var imageInt = 23;
+var imageInt = 24;
 var people = 
   {
 	0 :
@@ -162,7 +162,7 @@ function generateNextImage()
 
 function generatePreviousImage()
 {
-	imageInt--;
+	imageInt++;
 	if (imageInt > 23)
 	{
 		imageInt = 0;
