@@ -1,6 +1,6 @@
 var imageInt = 24;
 var people = 
-  {
+{
 	0 :
 	{
 	  id: 0,
@@ -129,26 +129,24 @@ var people =
 	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
 	}
 	21	:
-`	{
-`	  id: 21,
+	{
+	  id: 21,
 	  name: "StackCity",
 	  imgUrl: "/public/img/StackCity.jpg"
-	
 	}
 	22	:
 	{
-	  id: 22,
-	  name: "Edwin",
-	  imgUrl: "/public/img/EdwinEncarnacion.jpg"
+		id: 22, 
+		name: "Edwin",
+		imgUrl: "/public/img/EdwinEncarnacion.jpg"
 	}
 	23	:
 	{
-	  id: 23,
-	  name: "SnapchatGawd",
-	  imgUrl: "/public/img/SNAPCHATGAWD.jpg"
+		id: 23,
+		name: "SnapchatGawd",
+		imgUrl: "/public/img/SNAPCHATGAWD.jpg"
 	}
-  }
-  
+} 
 
 function generateNextImage()
 {
