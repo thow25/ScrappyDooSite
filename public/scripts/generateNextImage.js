@@ -1,53 +1,54 @@
-var imageInt = -1;
+var imageInt = 23;
 var people = 
   {
-	0	:
+	0 :
 	{
 	  id: 0,
-	  name: "east4th",
-	  imgUrl: "/public/img/East4th.png"
+	  name: "newalbany",
+	  imgUrl: "/public/img/NewAlbany.jpg"
 	},
-	1	: 
+	
+	1 :
 	{
 	  id: 1,
-	  name: "theJakeWS",
-	  imgUrl: "/public/img/TheJakeWorldSeries.png"
+	  name: "lakeerie",
+	  imgUrl: "/public/img/LakeErie.jpg"
 	},
-	2	:
+	2 :
 	{
 	  id: 2,
-	  name: "theQArena",
-	  imgUrl: "/public/img/TheQOutsideBannerNight.png"
+	  name: "horseshoe",
+	  imgUrl: "/public/img/Horseshoe.jpg"
 	},
-	3	:
+	3 :
 	{
 	  id: 3,
-	  name: "theQBannerNight",
-	  imgUrl	: "/public/img/TheQBannerNight.png"
+	  name: "firstenergystadium",
+	  imgUrl: "/public/img/FirstEnergyStadium.jpg"
 	},
-	4	:
+	4 :
 	{
 	  id: 4,
-	  name: "wsWatchParty",
-	  imgUrl: "/public/img/WorldSeriesWatchParty.png"
+	  name: "clevelandskylinetattoo",
+	  imgUrl: "/public/img/ClevelandSkylineTattoo.jpg"
 	},
-	5	:
+	5 :
 	{
 	  id: 5,
-	  name: "cavsTitleTShirt",
-	  imgUrl: "/public/img/CavsTitleTShirt.png"
+	  name: "cavscountdown",
+	  imgUrl: "/public/img/CavsCountdown.jpg"
 	},
 	6 :
 	{
 	  id: 6,
-	  name: "brownspats",
-	  imgUrl: "/public/img/BrownsPats.jpg"
+	  name: "bernlohr",
+	  imgUrl: "/public/img/BernlohrStadium.jpg"
 	},
 	7 :
 	{
 	  id: 7,
-	  name:"fourbyone",
-	  imgUrl: "/public/img/FourByOne.jpg"
+	  name: "nationwide",
+	  imgUrl: "/public/img/Nationwide.jpg"
 	},
 	8 :
 	{
@@ -58,60 +59,103 @@ var people =
 	9 :
 	{
 	  id: 9,
-	  name: "nationwide",
-	  imgUrl: "/public/img/Nationwide.jpg"
+	  name:"fourbyone",
+	  imgUrl: "/public/img/FourByOne.jpg"
 	},
 	10 :
 	{
 	  id: 10,
-	  name: "bernlohr",
-	  imgUrl: "/public/img/BernlohrStadium.jpg"
+	  name: "brownspats",
+	  imgUrl: "/public/img/BrownsPats.jpg"
 	},
-	11 :
+	11	:
 	{
 	  id: 11,
-	  name: "cavscountdown",
-	  imgUrl: "/public/img/CavsCountdown.jpg"
+	  name: "cavsTitleTShirt",
+	  imgUrl: "/public/img/CavsTitleTShirt.png"
 	},
-	12 :
+	12	:
 	{
 	  id: 12,
-	  name: "clevelandskylinetattoo",
-	  imgUrl: "/public/img/ClevelandSkylineTattoo.jpg"
+	  name: "wsWatchParty",
+	  imgUrl: "/public/img/WorldSeriesWatchParty.png"
 	},
-	13 :
+	13	:
 	{
 	  id: 13,
-	  name: "firstenergystadium",
-	  imgUrl: "/public/img/FirstEnergyStadium.jpg"
+	  name: "theQBannerNight",
+	  imgUrl	: "/public/img/TheQBannerNight.png"
 	},
-	14 :
+	14	:
 	{
 	  id: 14,
-	  name: "horseshoe",
-	  imgUrl: "/public/img/Horseshoe.jpg"
+	  name: "theQArena",
+	  imgUrl: "/public/img/TheQOutsideBannerNight.png"
 	},
-	15 :
+	15	: 
 	{
 	  id: 15,
-	  name: "lakeerie",
-	  imgUrl: "/public/img/LakeErie.jpg"
+	  name: "theJakeWS",
+	  imgUrl: "/public/img/TheJakeWorldSeries.png"
 	},
-	16 :
+	16	:
 	{
 	  id: 16,
-	  name: "newalbany",
-	  imgUrl: "/public/img/NewAlbany.jpg"
+	  name: "east4th",
+	  imgUrl: "/public/img/East4th.png"
+	}
+	17	:
+	{
+	  id: 17,
+	  name: "CLESkylineTattooFinal",
+	  imgUrl: "/public/img/CLESkylineTattooFinal.jpg"
+	}
+	18	:
+	{
+	  id: 18,
+	  name: "OSUMichTailgate",
+	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
+	}
+	19	:
+	{
+	  id: 19,
+	  name: "OSUMich",
+	  imgUrl: "/public/img/OhioStateMichigan.jpg"
+	}
+	20	:
+	{
+	  id: 20,
+	  name: "OSUMichTailgate",
+	  imgUrl: "/public/img/OhioStateMichiganTailgate.png"
+	}
+	21	:
+`	{
+`	  id: 21,
+	  name: "StackCity",
+	  imgUrl: "/public/img/StackCity.jpg"
+	
+	}
+	22	:
+	{
+	  id: 22,
+	  name: "Edwin",
+	  imgUrl: "/public/img/EdwinEncarnacion.jpg"
+	}
+	23	:
+	{
+	  id: 23,
+	  name: "SnapchatGawd",
+	  imgUrl: "/public/img/SNAPCHATGAWD.jpg"
 	}
   }
   
 
 function generateNextImage()
 {
-	imageInt++;
-	if (imageInt > 16)
+	imageInt--;
+	if (imageInt < 0)
 	{
-		imageInt = 0;
+		imageInt = 23;
 	}
 	document.getElementById("imageId").src = people[imageInt].imgUrl;
 }
@@ -119,9 +163,9 @@ function generateNextImage()
 function generatePreviousImage()
 {
 	imageInt--;
-	if (imageInt < 0)
+	if (imageInt > 23)
 	{
-		imageInt = 16;
+		imageInt = 0;
 	}
 	document.getElementById("imageId").src = people[imageInt].imgUrl;
 }
